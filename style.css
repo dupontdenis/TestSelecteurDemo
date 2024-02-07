@@ -1,0 +1,46 @@
+section {
+  min-height: 20vh;
+  background: black;
+  margin-bottom: 10vh;
+  color: white;
+  padding: 10px;
+}
+
+.textarea {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+textarea {
+  display: block;
+  min-width: 350px;
+  min-height: 200px;
+  padding: 10px 10px 0px;
+  font: 1em sans-serif;
+}
+
+.user-html {
+  width: 50vw;
+}
+
+.tip:hover:after {
+  position: absolute;
+  content: attr(data-tip);
+  background: black;
+  color: white;
+  font: 1.5em Helvetica, Arial, sans-serif;
+}
+
+label {
+  font:
+    2rem 'Fira Sans',
+    sans-serif;
+}
+
+input {
+  margin: 0.4rem;
+}
+
+/* test */
